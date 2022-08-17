@@ -6,14 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #ebf5fc;
-} */
-
 header {
   height: auto;
 }
@@ -31,7 +23,6 @@ nav a {
   font-size: 25px;
   color: whitesmoke;
   text-decoration: none;
-  margin: 0 30px;
   
 }
 
@@ -62,13 +53,11 @@ background: url('assets/hero.png') no-repeat center center fixed;
 
 .container .card {
   position: relative;
-  width: 320px;
   height: 440px;
   box-shadow: inset 5px 5px 5px rgba(137, 17, 167, 0.05),
     inset -5px -5px 5px rgba(255, 255, 255, 0.5),
     5px 5px 5px rgba(88, 8, 112, 0.05), -5px -5px 5px rgb(255, 255, 255, 0.5);
   border-radius: 30px;
-  margin: 30px 100px;
 }
 
 .container .card .box {
@@ -161,4 +150,30 @@ footer {
   background-color: rgb(28, 26, 26);
   color: whitesmoke; 
   height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+          margin: 0 10px;
+          font-size: 1rem;
+    }
+    #hero {
+        display: none;
+    }
+    .container .card {
+  width: 290px;
+  margin: 30px 10px;
+}
+    
+}
+
+@media screen and (min-width: 768px) {
+    nav a {
+          margin: 0 30px;
+    }
+    .container .card {
+  width: 320px;
+  margin: 30px 100px;
+}
+
 }
