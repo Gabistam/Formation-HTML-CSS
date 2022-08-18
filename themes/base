@@ -1,168 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
     <script src="../script.js"></script>
     <title>Cours HTML & CSS</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-
-        <nav>
-            <a href="../index.html">Accueil</a>
-            <a href="/themes/paragraphe.html">Cours</a>
-            <a href="#">Blog</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-
-        </nav>
+      <nav>
+        <a href="../index.html">Accueil</a>
+        <a href="/themes/paragraphe.html">Cours</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
     </header>
     <main>
-        <section id="hero">
-        </section>
-            <aside>
+      <section id="hero"></section>
+      <aside>
         <header>
-            <h1>Sommaire</h1>
-            <main>
-                <form action="/#">
-                    <label for="themes-html">Choix du thème HTML</label>
-                    <select name="themes-html" id="subjects">
-                        <optgroup label="Agencement du texte">
-                            <option value="paragraphe">paragraphe</option>
-                            <option value="titre">titre</option>
-                            <option value="liste">liste</option>
-                            <option value="">caractères spéciaux</option>
-                            <option value="tableaux">tableaux</option>
-                        </optgroup>
-                        <optgroup label="Structure de page">
-                            <option value="">Les blocs et inlines</option>
-                            <option value="">Les balises sémantiques</option>
-                        </optgroup>
-                        <optgroup label="Les liens">
-                            <option value="">Les liens</option>
-                        </optgroup>
-                        <optgroup label="Les éléments multimédias">
-                            <option value="">Images</option>
-                            <option value="">Vidéos</option>
-                            <option value="">Audios</option>
-                        </optgroup>
-                        <optgroup label="Création de Formulaire">
-                            <option value="">Attributs et Label</option>
-                            <option value="">Les Inputs</option>
-                            <option value="">Liste déroulante et Option</option>
-                            <option value="">Radio et Ccheckbox</option>
-                            <option value="">Bouton Submit</option>
-                        </optgroup>
-                    </select>
-                    <input class="SubmitButton" type="button" value="Valider" onclick="showPage()"  style="font-size:20px; " />
-                </form>
-                <form action="/#">
-                    <label for="themes-css">Choix du thème CSS</label>
-                    <select name="themes-css" id="subjects">
-                        <optgroup label="Intro ">
-                            <option value="">Syntaxe</option>
-                            <option value="">Comment inserer du CSS</option>
-                            <option value="">Faire un commentaire</option>
-                        </optgroup>
-                        <optgroup label="Les unités de mesures">
-                            <option value="">Pixels</option>
-                            <option value="">Pourcentage</option>
-                            <option value="">Em</option>
-                            <option value="">Rem</option>
-                        </optgroup>
-                        <optgroup label="Les couleurs">
-                            <option value="">Rgba</option>
-                            <option value="">Hex</option>
-                        </optgroup>
-                        <optgroup label="Police">
-                            <option value="">Police</option>
-                        </optgroup>
-                        <optgroup label="Les Sélecteurs">
-                            <option value="">Sélecteur imbriqué</option>
-                            <option value="">Sélecteur de tout les éléments</option>
-                            <option value="">Sélecteur Class</option>
-                            <option value="">Sélecteur ID</option>
-                            <option value="">Les Pseudo-class</option>
-
-                        </optgroup>
-                        <optgroup label="Propriété Display">
-                            <option value="">Display block</option>
-                            <option value="">Display Inline</option>
-                            <option value="">Display inline-block</option>
-                            <option value="">Display none</option>
-                        </optgroup>
-                        <optgroup label="Box Model">    
-                                <option value="">Margin</option>
-                                <option value="">Border</option>
-                                <option value="">Padding</option>
-                        </optgroup>
-                        <optgroup label="Propriété Position">
-                            <option value="">Static</option>
-                            <option value="">Relative</option>
-                            <option value="">Fixed</option>
-                            <option value="">Absolute</option>
-                        </optgroup>
-                        <optgroup label="Propriété Float">
-                            <option value="">Float</option>
-                            <option value="">Clear</option>
-                        </optgroup>
-                    </select>
-                    <input class="SubmitButton" type="button" value="Valider" onclick="showPage()"  style="font-size:20px; " />
-
-                </form>
-            </main>
+          <h1>Sommaire</h1>
+          <main>
+            <form action="/#">
+              <label for="themes-html">Choix du thème HTML</label>
+              <select name="themes-html" id="subjects">
+                <optgroup label="Agencement du texte">
+                  <option value="paragraphe">paragraphe</option>
+                  <option value="titre">titre</option>
+                  <option value="liste">liste</option>
+                  <option value="">caractères spéciaux</option>
+                  <option value="tableaux">tableaux</option>
+                </optgroup>
+                <optgroup label="Structure de page">
+                  <option value="">Les blocs et inlines</option>
+                  <option value="">Les balises sémantiques</option>
+                </optgroup>
+                <optgroup label="Les liens">
+                  <option value="">Les liens</option>
+                </optgroup>
+                <optgroup label="Les éléments multimédias">
+                  <option value="">Images</option>
+                  <option value="">Vidéos</option>
+                  <option value="">Audios</option>
+                </optgroup>
+                <optgroup label="Création de Formulaire">
+                  <option value="">Attributs et Label</option>
+                  <option value="">Les Inputs</option>
+                  <option value="">Liste déroulante et Option</option>
+                  <option value="">Radio et Ccheckbox</option>
+                  <option value="">Bouton Submit</option>
+                </optgroup>
+              </select>
+              <input
+                class="SubmitButton"
+                type="button"
+                value="Valider"
+                onclick="showPage()"
+                style="font-size: 20px"
+              />
+            </form>
+            <form action="/#">
+              <label for="themes-css">Choix du thème CSS</label>
+              <select name="themes-css" id="subjects">
+                <optgroup label="Intro ">
+                  <option value="">Syntaxe</option>
+                  <option value="">Comment inserer du CSS</option>
+                  <option value="">Faire un commentaire</option>
+                </optgroup>
+                <optgroup label="Les unités de mesures">
+                  <option value="">Pixels</option>
+                  <option value="">Pourcentage</option>
+                  <option value="">Em</option>
+                  <option value="">Rem</option>
+                </optgroup>
+                <optgroup label="Les couleurs">
+                  <option value="">Rgba</option>
+                  <option value="">Hex</option>
+                </optgroup>
+                <optgroup label="Police">
+                  <option value="">Police</option>
+                </optgroup>
+                <optgroup label="Les Sélecteurs">
+                  <option value="">Sélecteur imbriqué</option>
+                  <option value="">Sélecteur de tout les éléments</option>
+                  <option value="">Sélecteur Class</option>
+                  <option value="">Sélecteur ID</option>
+                  <option value="">Les Pseudo-class</option>
+                </optgroup>
+                <optgroup label="Propriété Display">
+                  <option value="">Display block</option>
+                  <option value="">Display Inline</option>
+                  <option value="">Display inline-block</option>
+                  <option value="">Display none</option>
+                </optgroup>
+                <optgroup label="Box Model">
+                  <option value="">Margin</option>
+                  <option value="">Border</option>
+                  <option value="">Padding</option>
+                </optgroup>
+                <optgroup label="Propriété Position">
+                  <option value="">Static</option>
+                  <option value="">Relative</option>
+                  <option value="">Fixed</option>
+                  <option value="">Absolute</option>
+                </optgroup>
+                <optgroup label="Propriété Float">
+                  <option value="">Float</option>
+                  <option value="">Clear</option>
+                </optgroup>
+              </select>
+              <input
+                class="SubmitButton"
+                type="button"
+                value="Valider"
+                onclick="showPage()"
+                style="font-size: 20px"
+              />
+            </form>
+          </main>
         </header>
-    </aside>
+      </aside>
 
+      <section id="theory">
+        <header>
+          <!-- Titre du sujet-->
+          <h1>SUJET HTML:</h1>
+        </header>
+        <main>
+          <div class="explication">
+            <h3>Explication:</h3>
+            <p>Balise à utliser &#10233; "&lt;p&gt;...&lt;/p&gt;"</p>
+          </div>
+          <h3>Démo:</h3>
+        </main>
+      </section>
+      <hr />
+      <hr />
+      <section id="practice">
+        <header>
+          <h2>Practice</h2>
+          <h3>Conditions:</h3>
+        </header>
 
-        <section id="theory">
-            <header>
-                <!-- Titre du sujet-->
-                <h1>SUJET: </h1>
-            </header>
-            <main>
-                <div class="explication">
-                    <h3>Explication:</h3>
-                    <p>Balise à utliser &#10233; "&lt;p&gt;...&lt;/p&gt;" </p>
-
-                </div>
-                <h3>Démo:</h3>
-
-
-
-            </main>
-        </section>
-        <hr>
-        <hr>
-        <section id="practice">
-            <header>
-                <h2>Practice</h2>
-                <h3>
-                    Conditions:
-                </h3>
-            </header>
-            
-            <main>
-                <h4>EXO 1</h4>
- 
-            </main>
-
-        </section>
+        <main>
+          <h4>EXO 1</h4>
+        </main>
+      </section>
     </main>
 
     <footer>
-
-        <!-- Symbole copyright: 
+      <!-- Symbole copyright: 
         Sur PC: appuyer sur la touche [Alt], taper simultanément 0169 et relâcher la touche [Alt].
         Sur Mac: appuyer sur la touche option et simultanément sur la touche C.-->
-        <h2>© 2022 Gabistam </h2>
+      <h2>© 2022 Gabistam</h2>
     </footer>
-</body>
-
+  </body>
 </html>

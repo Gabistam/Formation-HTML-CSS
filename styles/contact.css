@@ -1,0 +1,119 @@
+/* Page Header*/
+
+
+
+header {
+  height: auto;
+}
+
+nav {
+  background-color: rgb(77, 76, 76);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav a {
+  font-size: 25px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 30px;
+  
+}
+
+nav a:hover {
+  color:  rgba(81, 185, 241, 0.758);
+  text-decoration:  overline;
+  
+}
+
+/* Main */
+
+Main {
+  background: url('/assets/contact_bg1.png') no-repeat center center fixed;
+  background-size: cover;
+  width: auto;
+  height: auto;
+  padding: 80px 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+
+}
+
+#contact form {
+    padding: 60px;
+    border-radius: 20px;
+    margin: 80px 15px;
+    background: rgba(72, 69, 69, 0.469);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.498);
+
+}
+
+form input {
+    border-radius: 15px;
+margin: 0 15px 20px;
+height: 25px;
+padding-left: 10px;
+border: none;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+form textarea {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form button {
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(30, 142, 240, 0.734);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+}
+
+form button:hover {
+    color: whitesmoke;
+    background: rgba(240, 107, 30, 0.723);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.584);
+    transition: 0.2s;
+}
+
+
+/* FOOTER*/
+
+footer {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(28, 26, 26);
+  color: whitesmoke; 
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+      nav a {
+          margin: 0 10px;
+          font-size: 1rem;
+    }
+
+}
+
+

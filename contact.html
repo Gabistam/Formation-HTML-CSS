@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <script src="/script.js"></script>
+    <title>Cours HTML & CSS</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">Accueil</a>
+        <a href="/themes/paragraphe.html">Cours</a>
+        <a href="#">About</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>CONTACTEZ NOUS</h1>
+      <section id="contact">
+        <form action="/index.html" method="get">
+          <div>
+            <label for="prenom">prénom</label>
+            <input type="text" name="prenom" id="prenom" />
+            <label for="nom">nom</label>
+            <input type="text" name="nom" id="nom" />
+            <fieldset>
+              <legend>Votre sexe</legend>
+              <div>
+                <label for="homme">
+                  <input type="radio" name="sexe" id="homme" checked />
+                  Homme
+                </label>
+                <label for="femme"
+                  ><input type="radio" name="sexe" id="femme" /> Femme</label
+                >
+              </div>
+            </fieldset>
+            <fieldset>
+                <legend>Langage préféré</legend>
+                <label for="html"><input type="checkbox" name="language" id="HTML"> HTML</label>
+                <label for="css"><input type="checkbox" name="language" id="css"> CSS</label> 
+            </fieldset>
+          </div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Votre email"
+          />
+          <input type="tel" name="tel" id="tel" placeholder="Téléphone" />
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              cols="80"
+              rows="20"
+              placeholder="Insérer votre message"
+            ></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Symbole copyright: 
+        Sur PC: appuyer sur la touche [Alt], taper simultanément 0169 et relâcher la touche [Alt].
+        Sur Mac: appuyer sur la touche option et simultanément sur la touche C.-->
+      <h2>© 2022 Gabistam</h2>
+    </footer>
+  </body>
+</html>

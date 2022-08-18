@@ -1,7 +1,7 @@
 function showPage() {
-  var sel = document.getElementById("subjects");
+  let sel = document.getElementById("subjects");
 
-  var option = sel.options[sel.selectedIndex].value;
+  let option = sel.options[sel.selectedIndex].value;
 
   window.open("/themes/" + option + ".html");
 }
